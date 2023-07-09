@@ -1,0 +1,61 @@
+body {
+    background-color: #100720;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .Start {
+     text-align: center;
+     margin-top: 360px;
+     color: whitesmoke;
+     font-size: 72px;
+ }
+ 
+ .Startdiv {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .Startbtn{
+     font-size: 72px;
+     border: none;
+     border-radius: 72px;
+     background-color: whitesmoke;
+     color: #100720;
+ }
+ 
+ .Startbtn:active {
+     background-color: whitesmoke;
+     color: #100720;
+ }
+ 
+ .Startbtn:hover {
+     cursor: pointer;
+     color: whitesmoke;
+     background-color: #100720;
+     transition: all .5s linear;
+ }
+ 
+ .choice {
+     display: flex;
+     justify-content: center;
+     gap: 72px;
+ }
+ 
+ .choices:hover {
+     cursor: pointer;
+ }
+ 
+ img {
+     height: 108px;
+     width: 108px;
+ }
+ 
+ .result {
+     text-align: center;
+     margin-top: 360px;
+     color: whitesmoke;
+     font-size: 72px;
+ }
+ 
